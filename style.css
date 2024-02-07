@@ -1,0 +1,28 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    display: flex;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.obrazky {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+img {
+    border: solid red 2px;
+    margin: 10px;
+}
